@@ -1,0 +1,138 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.icon-header-sago{
+	color:#fff;
+	font-size:130%;
+}
+.icon-header-sago i{
+	background:#BDA87F;
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	border-radius:99px;
+	color:#fff !important;
+}
+.icon-header-sago i:hover{
+	color:#333 !important;
+}
+html{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*danh mục sp*/
+span.widget-title {
+    display: block;
+    width: 100%;
+    background: #333333;
+    padding: 12px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    letter-spacing: 0;
+}
+.widget .is-divider {
+    display: none;
+}
+.widget ul {
+    	padding-left:8px;
+	padding-right:8px;
+}
+.widget {
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px #00000012;
+    border-radius: 5px;
+}
+.widget .menu-danh-muc-sp-container>ul{
+	background: url(http://demo32.muathemewordpress.net/wp-content/uploads/2020/01/mau-da.jpg);
+   
+    list-style: none;
+    
+}
+.widget .menu-danh-muc-sp-container>ul a:hover{
+	color:#dd3333;
+}
+/*title*/
+.section-title-normal a{
+	color:#fff;
+}
+.section-title-normal{
+	border-bottom:none;
+}
+.section-title-normal span{
+	padding-bottom:0px;
+	border-bottom:none;
+	margin-bottom:0px;
+}
+.section-title.section-title-normal{
+width: 100%;
+    background: #333333;
+    padding: 6px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    letter-spacing: 0;
+}
+/*footer*/
+.sago-footer-main h4{
+	    color: rgb(51, 51, 51);
+
+	font-size:97%;
+	margin-bottom:12px;
+}
+.sago-footer-main li{
+	
+	font-size:98%;
+	color:#333 !important;
+	list-style:none;
+	margin-left:0px !important;
+}
+.sago-footer-main li>a{
+	color:#333
+}
+.sago-footer-main li>a:hover{
+	color:#399DFD;
+}
+
+.tab-content th, .tab-content td{
+	border:1px solid #ccc;
+	    padding: 3px 10px !important;
+}
+.footer-sago-bottom {
+    border-top: 1px solid #cccccc40;
+}
+.sago-footer-main i{
+	background:#399DFD;
+	width:23px;
+	height:23px;
+	line-height:23px;
+	text-align:center;
+	color:#fff;
+	border-radius:99px;
+	font-size:85%;
+}
+/*form*/
+.form-flat button, .form-flat input {
+    border-radius: 6px;
+	background:#000;
+}
+.form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+	border-radius:6px;
+}
+input[type='submit']:not(.is-form){
+	background-color:#399DFD !important
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
